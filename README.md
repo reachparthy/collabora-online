@@ -29,3 +29,41 @@ A read-only mirror of the source code is available at
 [CollaboraOnline/online.mirror](https://github.com/CollaboraOnline/online.mirror) — see its
 [README.md](https://github.com/CollaboraOnline/online.mirror/blob/main/README.md) for build
 instructions and project documentation.
+
+## Supported browsers
+
+Collabora Online supports a wide range of modern web browsers on both desktop and mobile platforms.
+
+### Desktop browsers
+
+| Browser | Minimum version | Notes |
+|---------|-----------------|-------|
+| Google Chrome / Chromium | 90+ | Full support for all features. Recommended for best performance. |
+| Mozilla Firefox | 88+ | Full support for all features. Generally well-supported. |
+| Apple Safari | 14.0+ | Good support for most features. Some minor UI quirks may occur. |
+| Microsoft Edge | 90+ | Full support (Chromium-based). Actively tested. |
+| Opera | 76+ | Supported through Chromium base. Full feature support expected. |
+
+### Mobile browsers
+
+| Browser | Minimum version | Notes |
+|---------|-----------------|-------|
+| Chrome Mobile (Android) | Android 10+ | Good support. Touch interface works well. |
+| Safari Mobile (iOS) | iOS 14+ | Limited interface optimizations. Desktop view recommended. |
+| Firefox Mobile (Android) | Android 10+ | Good support similar to desktop version. |
+| Edge Mobile (iOS/Android) | iOS 14+ / Android 10+ | Supported through Chromium base. |
+
+### Browser requirements
+
+- **JavaScript**: Must be enabled
+- **WebSocket support**: Required
+- **WebGL**: Optional (for enhanced rendering)
+- **Display resolution**: 1024×768 minimum recommended
+- **Hardware**: 2 GB RAM and 2 GHz+ processor recommended
+- **Network**: 2 Mbps minimum recommended, HTTPS recommended
+
+### Not supported
+
+- Internet Explorer (all versions)
+- Browsers older than 2018
+- Very old Safari versions (< 12)
